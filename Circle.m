@@ -15,4 +15,15 @@
 @dynamic y;
 @dynamic radius;
 
++ (Circle *)circleAtPoint:(CGPoint)origin inContext:(NSManagedObjectContext *)context {
+	
+	Circle *circle = [NSEntityDescription insertNewObjectForEntityForName:@"Circle" inManagedObjectContext:context];
+	
+	float radius = 10 + (arc4random() % 90);
+	circle.x = [NSNumber numberWithFloat:origin.x];
+	circle.y = [NSNumber numberWithFloat:origin.y];
+	circle.radius = [NSNumber numberWithFloat:radius];
+	return circle;
+}
+
 @end

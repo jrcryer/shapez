@@ -35,38 +35,10 @@
 	int type = arc4random() % 2;
 	
 	if (type == 0) {
-		Circle *circle = [NSEntityDescription insertNewObjectForEntityForName:@"Circle" inManagedObjectContext:self.managedObjectContext];
-		
-		shape = circle;
-		
-		float radius = 10 + (arc4random() % 90);
-		circle.x = [NSNumber numberWithFloat:point.x];
-		circle.y = [NSNumber numberWithFloat:point.y];
-		circle.radius = [NSNumber numberWithFloat:radius];
+		shape = [Circle circleAtPoint:point inContext:self.managedObjectContext];
 	}
 	else {
-		Polygon *polygon = [NSEntityDescription insertNewObjectForEntityForName:@"Polygon" inManagedObjectContext:self.managedObjectContext];
-		
-		shape = polygon;
-		
-		int nVertices = 3 + (arc4random() % 20);
-		float angleIncrement = (2 * M_PI) / nVertices;
-		int index = 0;
-		
-		for (float i = 0 ; i < nVertices; i++) {
-			float a = i * angleIncrement;
-			float radius = 10 + (arc4random() % 90);
-			float x = point.x + (radius * cos(a));
-			float y = point.y + (radius * sin(a));
-			
-			Vertex *vertex = [NSEntityDescription insertNewObjectForEntityForName:@"Vertex" inManagedObjectContext:self.managedObjectContext];
-			
-			vertex.x = [NSNumber numberWithFloat:x];
-			vertex.y = [NSNumber numberWithFloat:y];
-			vertex.index = [NSNumber numberWithFloat:index++];
-			
-			[polygon addVerticesObject:vertex];
-		}
+		shape = [Polygon polygonAtPoint:point inContext:self.managedObjectContext];
 	}
 	shape.colour = [self makeRandomColor];
 		

@@ -16,6 +16,8 @@
 
 @property (nonatomic, retain) NSSet* vertices;
 
++ (Polygon *)polygonAtPoint:(CGPoint)origin inContext:(NSManagedObjectContext *)context;
+
 @end
 
 

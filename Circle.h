@@ -18,6 +18,8 @@
 @property (nonatomic, retain) NSNumber * y;
 @property (nonatomic, retain) NSNumber * radius;
 
++ (Circle *)circleAtPoint:(CGPoint)origin inContext:(NSManagedObjectContext *)context;
+
 @end
 
 
