@@ -7,6 +7,12 @@
 //
 
 #import <stdlib.h>
+#import "Canvas.h"
+#import "Shape.h"
+#import	"Polygon.h"
+#import	"Circle.h"
+#import	"Vertex.h"
+#import "Transform.h"
 #import "ShapezViewController.h"
 
 @interface ShapezViewController()
@@ -24,28 +30,24 @@
 
 - (void)createShapeAt:(CGPoint)point {
 
-	NSManagedObject *shape = nil;
+	Shape *shape = nil;
 	
 	int type = arc4random() % 2;
 	
 	if (type == 0) {
-		NSEntityDescription *entity = [NSEntityDescription entityForName:@"Circle" inManagedObjectContext:self.managedObjectContext];
-		NSManagedObject *circle = [NSEntityDescription insertNewObjectForEntityForName:[entity name] inManagedObjectContext:self.managedObjectContext];
+		Circle *circle = [NSEntityDescription insertNewObjectForEntityForName:@"Circle" inManagedObjectContext:self.managedObjectContext];
 		
 		shape = circle;
 		
 		float radius = 10 + (arc4random() % 90);
-		[circle setValue:[NSNumber numberWithFloat:point.x] forKey:@"x"];
-		[circle setValue:[NSNumber numberWithFloat:point.y] forKey:@"y"];
-		[circle setValue:[NSNumber numberWithFloat:radius] forKey:@"radius"];
+		circle.x = [NSNumber numberWithFloat:point.x];
+		circle.y = [NSNumber numberWithFloat:point.y];
+		circle.radius = [NSNumber numberWithFloat:radius];
 	}
 	else {
-		NSEntityDescription *entity = [NSEntityDescription entityForName:@"Polygon" inManagedObjectContext:self.managedObjectContext];
-		NSManagedObject *polygon = [NSEntityDescription insertNewObjectForEntityForName:[entity name] inManagedObjectContext:self.managedObjectContext];
+		Polygon *polygon = [NSEntityDescription insertNewObjectForEntityForName:@"Polygon" inManagedObjectContext:self.managedObjectContext];
 		
 		shape = polygon;
-		
-		NSMutableSet *vertices = [polygon mutableSetValueForKey:@"vertices"];
 		
 		int nVertices = 3 + (arc4random() % 20);
 		float angleIncrement = (2 * M_PI) / nVertices;
@@ -57,20 +59,19 @@
 			float x = point.x + (radius * cos(a));
 			float y = point.y + (radius * sin(a));
 			
-			NSEntityDescription *vertexEntity = [NSEntityDescription entityForName:@"Vertex" inManagedObjectContext:self.managedObjectContext];
-			NSManagedObject *vertex = [NSEntityDescription insertNewObjectForEntityForName:[vertexEntity name] inManagedObjectContext:self.managedObjectContext];
+			Vertex *vertex = [NSEntityDescription insertNewObjectForEntityForName:@"Vertex" inManagedObjectContext:self.managedObjectContext];
 			
-			[vertex setValue:[NSNumber numberWithFloat:x] forKey:@"x"];
-			[vertex setValue:[NSNumber numberWithFloat:y] forKey:@"y"];
-			[vertex setValue:[NSNumber numberWithFloat:index++] forKey:@"index"];
+			vertex.x = [NSNumber numberWithFloat:x];
+			vertex.y = [NSNumber numberWithFloat:y];
+			vertex.index = [NSNumber numberWithFloat:index++];
 			
-			[vertices addObject:vertex];
+			[polygon addVerticesObject:vertex];
 		}
 	}
-	[shape setValue:[self makeRandomColor] forKey:@"colour"];
+	shape.colour = [self makeRandomColor];
 		
-	[[topView.canvas mutableSetValueForKey:@"shapes"] addObject:shape];
-	[[bottomView.canvas mutableSetValueForKey:@"shapes"] addObject:shape];
+	[topView.canvas addShapesObject:shape];
+	[bottomView.canvas addShapesObject:shape];
 	[self saveWithViewUpdate:YES];
 }
 
@@ -92,8 +93,8 @@
 	NSArray *shapes = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
 	[fetchRequest release];
 	
-	for (NSManagedObject *shape in shapes) {
-		[shape setValue:[self makeRandomColor] forKey:@"colour"];
+	for (Shape *shape in shapes) {
+		shape.colour = [self makeRandomColor];
 	}
 	[self saveWithViewUpdate:YES];
 }
@@ -107,7 +108,7 @@
 	NSArray *shapes = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
 	[fetchRequest release];
 	
-	for (NSManagedObject *shape in shapes) {
+	for (Shape *shape in shapes) {
 		[self.managedObjectContext deleteObject:shape];
 	}
 	[self saveWithViewUpdate:YES];
@@ -124,8 +125,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	NSManagedObject *canvas1 = nil;
-	NSManagedObject *canvas2 = nil;
+	Canvas *canvas1 = nil;
+	Canvas *canvas2 = nil;
 	
 	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 	NSEntityDescription *entity  = [NSEntityDescription entityForName:@"Canvas" inManagedObjectContext:self.managedObjectContext];
@@ -139,16 +140,11 @@
 		canvas2 = [canvases	objectAtIndex:1];
 	}
 	else {
-		canvas1 = [NSEntityDescription insertNewObjectForEntityForName:@"Canvas" inManagedObjectContext:self.managedObjectContext];
-		canvas2 = [NSEntityDescription insertNewObjectForEntityForName:@"Canvas" inManagedObjectContext:self.managedObjectContext];
+		Transform *transform1 = [Transform initWithScale:1 inContext:self.managedObjectContext];
+		canvas1 = [Canvas initWithTranform:transform1 inContext:self.managedObjectContext];
 		
-		NSManagedObject *transform1 = [NSEntityDescription insertNewObjectForEntityForName:@"Transform" inManagedObjectContext:self.managedObjectContext];
-		[transform1 setValue:[NSNumber numberWithFloat:1] forKey:@"scale"];
-		[canvas1 setValue:transform1 forKey:@"transform"];
-		
-		NSManagedObject *transform2 = [NSEntityDescription insertNewObjectForEntityForName:@"Transform" inManagedObjectContext:self.managedObjectContext];
-		[transform2 setValue:[NSNumber numberWithFloat:0.5] forKey:@"scale"];
-		[canvas2 setValue:transform2 forKey:@"transform"];
+		Transform *transform2 = [Transform initWithScale:0.5 inContext:self.managedObjectContext];
+		canvas2 = [Canvas initWithTranform:transform2 inContext:self.managedObjectContext];
 		
 		[self saveWithViewUpdate:NO];
 	}

@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "Canvas.h"
+
 
 @interface BasicCanvasView : UIView {
-	NSManagedObject *canvas;
+	Canvas *canvas;
 }
 
-@property (nonatomic, retain) NSManagedObject *canvas;
+@property (nonatomic, retain) Canvas *canvas;
 
 - (float)scale;
 @end

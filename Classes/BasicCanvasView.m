@@ -7,7 +7,11 @@
 //
 
 #import "BasicCanvasView.h"
-
+#import "Transform.h"
+#import "Shape.h"
+#import "Circle.h"
+#import "Vertex.h"
+#import "Polygon.h"
 
 @implementation BasicCanvasView
 
@@ -23,8 +27,7 @@
 }
 
 - (float)scale {
-	NSManagedObject *transform = [canvas valueForKey:@"transform"];
-	return [[transform valueForKey:@"scale"] floatValue];
+	return [canvas.transform.scale floatValue];
 }
 
 // Only override drawRect: if you perform custom drawing.
@@ -41,12 +44,12 @@
 	
 	CGContextScaleCTM(context, scale, scale);
 	
-	NSSet* shapes = [canvas valueForKey:@"shapes"];
+	NSSet* shapes = canvas.shapes;
 	
-	for (NSManagedObject *shape in shapes) {
+	for (Shape *shape in shapes) {
 		NSString *entityName = [[shape entity] name];
 		
-		NSString *colourCode = [shape valueForKey:@"colour"];
+		NSString *colourCode = shape.colour;
 		NSArray *colourCodes= [colourCode componentsSeparatedByString:@","];
 		
 		CGContextSetRGBFillColor(context, 
@@ -55,25 +58,27 @@
 								 [[colourCodes objectAtIndex:2] floatValue], 1);
 		
 		if ([entityName compare:@"Circle"] == NSOrderedSame) {
-			float x = [[shape valueForKey:@"x"] floatValue];
-			float y = [[shape valueForKey:@"y"] floatValue];
-			float radius = [[shape valueForKey:@"radius"] floatValue];
+			Circle *circle = (Circle *)shape;
+			float x = [circle.x floatValue];
+			float y = [circle.y floatValue];
+			float radius = [circle.radius floatValue];
 			
 			CGContextFillEllipseInRect(context, CGRectMake(x, y, 2*radius, 2*radius));
 		}
 		else {
+			Polygon *polygon = (Polygon *)shape;
 			NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"index" ascending:YES];
 			NSArray *sortDesc = [NSArray arrayWithObject:sort];
-			NSArray *vertices = [[[shape mutableSetValueForKey:@"vertices"] allObjects] sortedArrayUsingDescriptors:sortDesc];
+			NSArray *vertices = [[polygon.vertices allObjects] sortedArrayUsingDescriptors:sortDesc];
 			
 			CGContextBeginPath(context);
 			
-			NSManagedObject *lastVertex = [vertices lastObject];
+			Vertex *lastVertex = [vertices lastObject];
 			
-			CGContextMoveToPoint(context, [[lastVertex valueForKey:@"x"] floatValue], [[lastVertex valueForKey:@"y"] floatValue]);
+			CGContextMoveToPoint(context, [lastVertex.x floatValue], [lastVertex.y floatValue]);
 			
-			for (NSManagedObject *vertex in vertices) {
-				CGContextAddLineToPoint(context, [[vertex valueForKey:@"x"] floatValue], [[vertex valueForKey:@"y"] floatValue]);
+			for (Vertex *vertex in vertices) {
+				CGContextAddLineToPoint(context, [vertex.x floatValue], [vertex.y floatValue]);
 			}
 			CGContextFillPath(context);
 			

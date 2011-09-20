@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,7 +271,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -309,12 +307,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ShapezAppDelegate.m</string>
+								<string>BasicCanvasView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,20 +322,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ShapezAppDelegate.m</string>
+										<string>BasicCanvasView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B8D30B1614288A00007EEC10</string>
+										<string>B822F16014288DE700198003</string>
 										<key>history</key>
 										<array>
 											<string>B8D30B0F14288A00007EEC10</string>
-											<string>B8D30B1014288A00007EEC10</string>
-											<string>B8D30B1114288A00007EEC10</string>
-											<string>B8D30B1214288A00007EEC10</string>
-											<string>B8D30B1314288A00007EEC10</string>
-											<string>B8D30B1414288A00007EEC10</string>
-											<string>B8D30B1514288A00007EEC10</string>
+											<string>B822F15A14288DE700198003</string>
+											<string>B822F15B14288DE700198003</string>
+											<string>B822F15C14288DE700198003</string>
+											<string>B822F15D14288DE700198003</string>
+											<string>B822F15E14288DE700198003</string>
+											<string>B822F15F14288DE700198003</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -347,14 +347,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1029, 530}}</string>
+								<string>{{0, 0}, {1029, 528}}</string>
 								<key>RubberWindowFrame</key>
 								<string>20 129 1237 633 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>530pt</string>
+							<string>528pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -367,14 +367,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 535}, {1029, 57}}</string>
+								<string>{{0, 533}, {1029, 59}}</string>
 								<key>RubberWindowFrame</key>
 								<string>20 129 1237 633 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>57pt</string>
+							<string>59pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -393,9 +393,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B8D30AC414286C5F007EEC10</string>
+				<string>B822F16114288DE700198003</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B8D30AC514286C5F007EEC10</string>
+				<string>B822F16214288DE700198003</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,7 +535,6 @@
 	<array>
 		<string>B8D30AC714286C5F007EEC10</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/charlottepitchford/Apps/Shapez/Shapez.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -560,7 +559,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ShapezViewController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -577,8 +576,6 @@
 							<string>186pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -618,7 +615,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B8D30AC714286C5F007EEC10</string>
-				<string>B8D30AC814286C5F007EEC10</string>
+				<string>B822F16314288DE700198003</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -631,7 +628,7 @@
 			<key>WindowToolGUID</key>
 			<string>B8D30AC714286C5F007EEC10</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -740,13 +737,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B8D30B1714288A00007EEC10</string>
+				<string>B822F16414288DE700198003</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B8D30B1814288A00007EEC10</string>
-				<string>B8D30B1914288A00007EEC10</string>
-				<string>B8D30B1A14288A00007EEC10</string>
-				<string>B8D30B1B14288A00007EEC10</string>
-				<string>B8D30B1C14288A00007EEC10</string>
+				<string>B822F16514288DE700198003</string>
+				<string>B822F16614288DE700198003</string>
+				<string>B822F16714288DE700198003</string>
+				<string>B822F16814288DE700198003</string>
+				<string>B822F16914288DE700198003</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

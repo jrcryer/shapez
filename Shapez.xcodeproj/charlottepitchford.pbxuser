@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* ShapezAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {968, 473}}";
-			sepNavSelRange = "{894, 0}";
-			sepNavVisRange = "{0, 931}";
+			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
+			sepNavSelRange = "{56, 11}";
+			sepNavVisRange = "{0, 923}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ShapezAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1456}}";
-			sepNavSelRange = "{590, 0}";
-			sepNavVisRange = "{260, 1407}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1417}}";
+			sepNavSelRange = "{67, 0}";
+			sepNavVisRange = "{0, 1204}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Shapez */ = {
@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {968, 450}}";
-			sepNavSelRange = "{303, 0}";
-			sepNavVisRange = "{0, 603}";
+			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
+			sepNavSelRange = "{70, 0}";
+			sepNavVisRange = "{0, 595}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1069, 3237}}";
-			sepNavSelRange = "{441, 55}";
-			sepNavVisRange = "{270, 267}";
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 3133}}";
+			sepNavSelRange = "{70, 0}";
+			sepNavVisRange = "{0, 1021}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -55,7 +55,7 @@
 					20,
 					790,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -70,21 +70,126 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 338201744;
-			PBXWorkspaceStateSaveDate = 338201744;
+			PBXPerProjectTemplateStateSaveDate = 338206490;
+			PBXWorkspaceStateSaveDate = 338206490;
 		};
 		perUserProjectItems = {
+			B822F15A14288DE700198003 = B822F15A14288DE700198003 /* PBXTextBookmark */;
+			B822F15B14288DE700198003 = B822F15B14288DE700198003 /* PBXTextBookmark */;
+			B822F15C14288DE700198003 = B822F15C14288DE700198003 /* PBXTextBookmark */;
+			B822F15D14288DE700198003 = B822F15D14288DE700198003 /* PBXTextBookmark */;
+			B822F15E14288DE700198003 = B822F15E14288DE700198003 /* PBXTextBookmark */;
+			B822F15F14288DE700198003 = B822F15F14288DE700198003 /* PBXTextBookmark */;
+			B822F16014288DE700198003 = B822F16014288DE700198003 /* PBXTextBookmark */;
 			B8D30B0F14288A00007EEC10 = B8D30B0F14288A00007EEC10 /* XDModelBookmark */;
-			B8D30B1014288A00007EEC10 = B8D30B1014288A00007EEC10 /* PBXTextBookmark */;
-			B8D30B1114288A00007EEC10 = B8D30B1114288A00007EEC10 /* PBXTextBookmark */;
-			B8D30B1214288A00007EEC10 = B8D30B1214288A00007EEC10 /* PBXTextBookmark */;
-			B8D30B1314288A00007EEC10 = B8D30B1314288A00007EEC10 /* PBXTextBookmark */;
-			B8D30B1414288A00007EEC10 = B8D30B1414288A00007EEC10 /* PBXTextBookmark */;
-			B8D30B1514288A00007EEC10 = B8D30B1514288A00007EEC10 /* PBXTextBookmark */;
-			B8D30B1614288A00007EEC10 = B8D30B1614288A00007EEC10 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B8D30AC914286C5F007EEC10 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	B822F15A14288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ShapezAppDelegate.h */;
+		name = "ShapezAppDelegate.h: 5";
+		rLen = 11;
+		rLoc = 56;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	B822F15B14288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShapezAppDelegate.m */;
+		name = "ShapezAppDelegate.m: 5";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 1204;
+		vrLoc = 0;
+	};
+	B822F15C14288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */;
+		name = "ShapezViewController.h: 5";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	B822F15D14288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */;
+		name = "ShapezViewController.m: 5";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 0;
+	};
+	B822F15E14288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D30AE214287237007EEC10 /* BasicCanvasView.h */;
+		name = "BasicCanvasView.h: 5";
+		rLen = 0;
+		rLoc = 65;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 0;
+	};
+	B822F15F14288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D30AE314287237007EEC10 /* BasicCanvasView.m */;
+		name = "BasicCanvasView.m: 50";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 39;
+	};
+	B822F16014288DE700198003 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D30AE314287237007EEC10 /* BasicCanvasView.m */;
+		name = "BasicCanvasView.m: 5";
+		rLen = 0;
+		rLoc = 65;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 0;
+	};
+	B83698481428A05A00BC5BCF /* Canvas.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 546}";
+		};
+	};
+	B83698491428A05A00BC5BCF /* Canvas.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 220}";
+		};
+	};
+	B836984C1428A05A00BC5BCF /* Polygon.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 508}";
+		};
+	};
+	B83698501428A05A00BC5BCF /* Vertex.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 416}";
+		};
+	};
+	B83698511428A05A00BC5BCF /* Vertex.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 261}";
 		};
 	};
 	B8D30ABA14286C56007EEC10 /* Shapez */ = {
@@ -155,7 +260,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						68.080078,
+						63.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -165,8 +270,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {670, 218}}",
-							"{{675, 0}, {352, 218}}",
+							"{{0, 0}, {656, 220}}",
+							"{{661, 0}, {345, 220}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -175,8 +280,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1027, 220}}",
-							"{{0, 225}, {1027, 288}}",
+							"{{0, 0}, {1006, 220}}",
+							"{{0, 225}, {1006, 284}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -185,8 +290,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {218, 218}}",
-							"{{223, 0}, {447, 218}}",
+							"{{0, 0}, {213, 220}}",
+							"{{218, 0}, {436, 220}}",
 						);
 					};
 				};
@@ -275,7 +380,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						184.570801,
+						173.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -283,97 +388,27 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-157, 0}, {1012, 273}}";
+				"xdesign model diagram view visible rect key" = "{{-147, 0}, {991, 269}}";
 			};
 		};
 	};
 	B8D30AE214287237007EEC10 /* BasicCanvasView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {968, 473}}";
-			sepNavSelRange = "{326, 0}";
-			sepNavVisRange = "{0, 338}";
+			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
+			sepNavSelRange = "{65, 0}";
+			sepNavVisRange = "{0, 330}";
 		};
 	};
 	B8D30AE314287237007EEC10 /* BasicCanvasView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {968, 1209}}";
-			sepNavSelRange = "{1088, 0}";
-			sepNavVisRange = "{135, 721}";
+			sepNavIntBoundsRect = "{{0, 0}, {968, 1352}}";
+			sepNavSelRange = "{65, 0}";
+			sepNavVisRange = "{0, 772}";
 		};
 	};
 	B8D30B0F14288A00007EEC10 /* XDModelBookmark */ = {
 		isa = XDModelBookmark;
 		fRef = B8D30AD014286CBD007EEC10 /* shapes.xcdatamodel */;
 		fallbackIsa = PBXBookmark;
-	};
-	B8D30B1014288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* ShapezAppDelegate.h */;
-		name = "ShapezAppDelegate.h: 29";
-		rLen = 0;
-		rLoc = 894;
-		rType = 0;
-		vrLen = 931;
-		vrLoc = 0;
-	};
-	B8D30B1114288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B8D30AE214287237007EEC10 /* BasicCanvasView.h */;
-		name = "BasicCanvasView.h: 18";
-		rLen = 0;
-		rLoc = 326;
-		rType = 0;
-		vrLen = 338;
-		vrLoc = 0;
-	};
-	B8D30B1214288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B8D30AE314287237007EEC10 /* BasicCanvasView.m */;
-		name = "BasicCanvasView.m: 50";
-		rLen = 0;
-		rLoc = 1088;
-		rType = 0;
-		vrLen = 721;
-		vrLoc = 135;
-	};
-	B8D30B1314288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */;
-		name = "ShapezViewController.m: 96";
-		rLen = 0;
-		rLoc = 3316;
-		rType = 0;
-		vrLen = 1146;
-		vrLoc = 2713;
-	};
-	B8D30B1414288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */;
-		name = "ShapezViewController.h: 14";
-		rLen = 0;
-		rLoc = 303;
-		rType = 0;
-		vrLen = 603;
-		vrLoc = 0;
-	};
-	B8D30B1514288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ShapezAppDelegate.m */;
-		name = "ShapezAppDelegate.m: 24";
-		rLen = 0;
-		rLoc = 590;
-		rType = 0;
-		vrLen = 1353;
-		vrLoc = 260;
-	};
-	B8D30B1614288A00007EEC10 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ShapezAppDelegate.m */;
-		name = "ShapezAppDelegate.m: 24";
-		rLen = 0;
-		rLoc = 590;
-		rType = 0;
-		vrLen = 1407;
-		vrLoc = 260;
 	};
 }
