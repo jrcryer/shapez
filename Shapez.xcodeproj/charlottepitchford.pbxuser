@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ShapezAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 473}}";
+			sepNavSelRange = "{894, 0}";
+			sepNavVisRange = "{0, 931}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ShapezAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1456}}";
+			sepNavSelRange = "{590, 0}";
+			sepNavVisRange = "{260, 1407}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Shapez */ = {
+		activeExec = 0;
+		executables = (
+			B8D30ABA14286C56007EEC10 /* Shapez */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 450}}";
+			sepNavSelRange = "{303, 0}";
+			sepNavVisRange = "{0, 603}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 3237}}";
+			sepNavSelRange = "{441, 55}";
+			sepNavVisRange = "{270, 267}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B8D30ABA14286C56007EEC10 /* Shapez */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Shapez */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Shapez */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = B8D30ACA14286C5F007EEC10 /* Code sense */;
+		executables = (
+			B8D30ABA14286C56007EEC10 /* Shapez */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					790,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338201744;
+			PBXWorkspaceStateSaveDate = 338201744;
+		};
+		perUserProjectItems = {
+			B8D30B0F14288A00007EEC10 = B8D30B0F14288A00007EEC10 /* XDModelBookmark */;
+			B8D30B1014288A00007EEC10 = B8D30B1014288A00007EEC10 /* PBXTextBookmark */;
+			B8D30B1114288A00007EEC10 = B8D30B1114288A00007EEC10 /* PBXTextBookmark */;
+			B8D30B1214288A00007EEC10 = B8D30B1214288A00007EEC10 /* PBXTextBookmark */;
+			B8D30B1314288A00007EEC10 = B8D30B1314288A00007EEC10 /* PBXTextBookmark */;
+			B8D30B1414288A00007EEC10 = B8D30B1414288A00007EEC10 /* PBXTextBookmark */;
+			B8D30B1514288A00007EEC10 = B8D30B1514288A00007EEC10 /* PBXTextBookmark */;
+			B8D30B1614288A00007EEC10 = B8D30B1614288A00007EEC10 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B8D30AC914286C5F007EEC10 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	B8D30ABA14286C56007EEC10 /* Shapez */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Shapez;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B8D30AC914286C5F007EEC10 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B8D30ACA14286C5F007EEC10 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B8D30AD014286CBD007EEC10 /* shapes.xcdatamodel */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 0;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+						"ET Class",
+					);
+					chosenTableColumnns_sortDirections = (
+						YES,
+					);
+					chosenTableColumnns_sortKeys = (
+						name,
+					);
+					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidths = (
+						103.000000,
+						22.000000,
+						68.080078,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {670, 218}}",
+							"{{675, 0}, {352, 218}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {1027, 220}}",
+							"{{0, 225}, {1027, 288}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {218, 218}}",
+							"{{223, 0}, {447, 218}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnnFRTs = (
+						"FT Fetch Request",
+						"FT Predicate",
+					);
+					chosenTableColumnnFRTs_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnFRTs_sortKeys = (
+						name,
+					);
+					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Type",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsAT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsFPT = (
+						"FP FetchedProperty",
+						"FP Destination",
+						"FP Predicate",
+					);
+					chosenTableColumnnsFPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsFPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+						"PT SharedKeyOne",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsRT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidthsAT = (
+						128.000000,
+						64.000000,
+					);
+					chosenTableWidthsFPT = (
+						128.000000,
+						64.000000,
+						144.764160,
+					);
+					chosenTableWidthsFRT = (
+						128.000000,
+						249.764160,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						108.110840,
+						184.570801,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						64.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-157, 0}, {1012, 273}}";
+			};
+		};
+	};
+	B8D30AE214287237007EEC10 /* BasicCanvasView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 473}}";
+			sepNavSelRange = "{326, 0}";
+			sepNavVisRange = "{0, 338}";
+		};
+	};
+	B8D30AE314287237007EEC10 /* BasicCanvasView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 1209}}";
+			sepNavSelRange = "{1088, 0}";
+			sepNavVisRange = "{135, 721}";
+		};
+	};
+	B8D30B0F14288A00007EEC10 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = B8D30AD014286CBD007EEC10 /* shapes.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	B8D30B1014288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ShapezAppDelegate.h */;
+		name = "ShapezAppDelegate.h: 29";
+		rLen = 0;
+		rLoc = 894;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 0;
+	};
+	B8D30B1114288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D30AE214287237007EEC10 /* BasicCanvasView.h */;
+		name = "BasicCanvasView.h: 18";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 0;
+	};
+	B8D30B1214288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D30AE314287237007EEC10 /* BasicCanvasView.m */;
+		name = "BasicCanvasView.m: 50";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 135;
+	};
+	B8D30B1314288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */;
+		name = "ShapezViewController.m: 96";
+		rLen = 0;
+		rLoc = 3316;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 2713;
+	};
+	B8D30B1414288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */;
+		name = "ShapezViewController.h: 14";
+		rLen = 0;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 0;
+	};
+	B8D30B1514288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShapezAppDelegate.m */;
+		name = "ShapezAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 1353;
+		vrLoc = 260;
+	};
+	B8D30B1614288A00007EEC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShapezAppDelegate.m */;
+		name = "ShapezAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 260;
+	};
+}

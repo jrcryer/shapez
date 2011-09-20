@@ -1,0 +1,310 @@
+TShapez
+v7
+r0
+t338194565.864295
+cCheck dependencies
+cProcessInfoPlistFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist Shapez-Info.plist
+cCompileXIB /Users/charlottepitchford/Apps/Shapez/MainWindow.xib
+cCompileXIB /Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib
+cProcessPCH /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch Shapez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
+cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/main.o /Users/charlottepitchford/Apps/Shapez/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.h
+c000000004E7838360000000000000397
+t1316501558
+s919
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m
+c000000004E78390100000000000009B1
+t1316501761
+s2481
+i"ShapezAppDelegate.h"
+i"ShapezViewController.h"
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.h
+c000000004E7834D500000000000000E8
+t1316500693
+s232
+i<UIKit/UIKit.h>
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m
+c000000004E7834D50000000000000551
+t1316500693
+s1361
+i"ShapezViewController.h"
+
+N/Users/charlottepitchford/Apps/Shapez/MainWindow.xib
+c000000004E7834D50000000000004CFF
+t1316500693
+s19711
+
+N/Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib
+c000000004E7834D50000000000003EDD
+t1316500693
+s16093
+
+N/Users/charlottepitchford/Apps/Shapez/Shapez_Prefix.pch
+c000000004E7834D500000000000000B5
+t1316500693
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app
+t2
+s0
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM
+t2
+s0
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist
+t1316501762
+s794
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/MainWindow.nib
+t1316501763
+s1121
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/PkgInfo
+t1316501762
+s8
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
+t2
+s0
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/ShapezViewController.nib
+t1316501763
+s764
+
+N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom
+t1316501765
+s3939
+
+N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shapez.LinkFileList
+c000000004E7839020000000000000182
+t1316501762
+s386
+
+N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o
+t2
+s0
+
+N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o
+t1316501765
+s38008
+
+N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/main.o
+t1316501765
+s6300
+
+N/Users/charlottepitchford/Apps/Shapez/main.m
+c000000004E7834D50000000000000165
+t1316500693
+s357
+i<UIKit/UIKit.h>
+
+N/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
+c000000004E7839020000000000000088
+t1316501762
+s136
+
+N/var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch
+t1316501765
+s15453392
+
+NShapez-Info.plist
+c000000004E7834D500000000000004D6
+t1316500693
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338194562#338194562#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338194565.709767
+e338194565.787821
+r0
+xCompileC
+xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o
+x/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m: In function '-[ShapezAppDelegate persistntStoreCoordinator]':
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:75: warning: incompatible Objective-C types initializing 'struct NSPersistentStore *', expected 'struct NSPersistentStoreCoordinator *'
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:77: error: 'persistntStoreCoordinator_' undeclared (first use in this function)
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:77: error: (Each undeclared identifier is reported only once
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:77: error: for each function it appears in.)
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:78: error: 'persistntStoreCoordinator' undeclared (first use in this function)
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:80: warning: unused variable 'dir'
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:82: warning: control reaches end of non-void function
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m: At top level:
+o/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:92: warning: property 'managedObjectContext' requires method '-managedObjectContext' to be defined - use @synthesize, @dynamic or provide a method implementation
+o{standard input}:213:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:213:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:195:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000002$pb"
+o{standard input}:195:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:190:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:190:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:180:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:180:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:171:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:171:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:86:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:86:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:80:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:80:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:72:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:72:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:66:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:66:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:60:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.viewController$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:60:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.viewController$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ShapezAppDelegate.viewController$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+lSLF07#2@73"Compile /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194565#338194565#0(5396"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m: In function '-[ShapezAppDelegate persistntStoreCoordinator]':/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:75: warning: incompatible Objective-C types initializing 'struct NSPersistentStore *', expected 'struct NSPersistentStoreCoordinator *'/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:77: error: 'persistntStoreCoordinator_' undeclared (first use in this function)/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:77: error: (Each undeclared identifier is reported only once/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:77: error: for each function it appears in.)/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:78: error: 'persistntStoreCoordinator' undeclared (first use in this function)/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:80: warning: unused variable 'dir'/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:82: warning: control reaches end of non-void function/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m: At top level:/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m:92: warning: property 'managedObjectContext' requires method '-managedObjectContext' to be defined - use @synthesize, @dynamic or provide a method implementation{standard input}:213:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"{standard input}:213:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:195:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000002$pb"{standard input}:195:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:190:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"{standard input}:190:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:180:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"{standard input}:180:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:171:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" minus "L00000000002$pb"{standard input}:171:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:86:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:86:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:80:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:80:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:72:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:72:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:66:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:66:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:60:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ShapezAppDelegate.viewController$non_lazy_ptr" minus "L00000000001$pb"{standard input}:60:symbol: "L_OBJC_IVAR_$_ShapezAppDelegate.viewController$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ShapezAppDelegate.viewController$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ShapezAppDelegate.managedObjectModel_$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_57(22@122"Incompatible Objective-C types initializing 'struct NSPersistentStore *', expected 'struct NSPersistentStoreCoordinator *'338194565#129#202#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#75#0#75#0#61"incompatible Objective-C types initializing '*', expected '*'0(4@68"'persistntStoreCoordinator_' undeclared (first use in this function)338194565#331#146#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#77#0#77#0#43"'*' undeclared (first use in this function)0(4@67"'persistntStoreCoordinator' undeclared (first use in this function)338194565#715#145#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#78#0#78#0#43"'*' undeclared (first use in this function)0(22@21"Unused variable 'dir'338194565#860#101#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#80#0#80#0#19"unused variable '*'0(22@40"Control reaches end of non-void function338194565#961#120#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#82#0#82#0#40"control reaches end of non-void function0(23@13"At top level:338194565#1081#81#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#0#0#0#0#0"0(22@148"Property 'managedObjectContext' requires method '-managedObjectContext' to be defined - use @synthesize, @dynamic or provide a method implementation338194565#1162#228#0(6@65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338194561#92#0#92#0#0"0(0#0#65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m8613673824#1917"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o1#
+
+CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338194565.787928
+e338194565.864121
+r1
+xCompileC
+xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o
+x/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m338194565#338194565#0(0"0(0#0#68"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m8615497664#1923"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o0#
+
+CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/main.o /Users/charlottepitchford/Apps/Shapez/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338194565.410956
+e338194565.709642
+r1
+xCompileC
+xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/main.o
+x/Users/charlottepitchford/Apps/Shapez/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/charlottepitchford/Apps/Shapez/main.m338194565#338194565#0(0"0(0#0#44"/Users/charlottepitchford/Apps/Shapez/main.m8614680736#1883"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/main.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/charlottepitchford/Apps/Shapez/MainWindow.xib
+s338194562.608876
+e338194563.569298
+r1
+xCompileXIB
+x/Users/charlottepitchford/Apps/Shapez/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338194562#338194563#0(0"0(0#0#52"/Users/charlottepitchford/Apps/Shapez/MainWindow.xib32370103365402688#566"    cd /Users/charlottepitchford/Apps/Shapez    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/MainWindow.nib /Users/charlottepitchford/Apps/Shapez/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib
+s338194562.620098
+e338194563.576719
+r1
+xCompileXIB
+x/Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib
+lSLF07#2@35"CompileXIB ShapezViewController.xib338194562#338194563#0(0"0(0#0#62"/Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib8615354112#586"    cd /Users/charlottepitchford/Apps/Shapez    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/ShapezViewController.nib /Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CDataModelCompile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
+s338194565.381914
+e338194565.691121
+r1
+xDataModelCompile
+x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom
+x/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
+lSLF07#2@64"Compile /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel338194565#338194565#0(0"0(0#0#56"/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel8614933280#378"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom0#
+
+CGenerateDSYMFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
+r0
+
+CLd /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez normal i386
+r0
+
+CProcessInfoPlistFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist Shapez-Info.plist
+s338194562.576849
+e338194562.608772
+r1
+xProcessInfoPlistFile
+x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist
+xShapez-Info.plist
+lSLF07#2@25"Process Shapez-Info.plist338194562#338194562#0(0"0(0#0#55"/Users/charlottepitchford/Apps/Shapez/Shapez-Info.plist30962724186357872#473"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Shapez-Info.plist -genpkginfo /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist0#
+
+CProcessPCH /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch Shapez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338194563.576938
+e338194565.381639
+r1
+xProcessPCH
+x/var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch
+xShapez_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Shapez_Prefix.pch338194563#338194565#0(0"0(0#0#55"/Users/charlottepitchford/Apps/Shapez/Shapez_Prefix.pch8616789376#1777"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -c /Users/charlottepitchford/Apps/Shapez/Shapez_Prefix.pch -o /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch0#
+
+CTouch /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app
+r0
+
