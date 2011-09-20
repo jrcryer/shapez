@@ -49,13 +49,8 @@
 	for (Shape *shape in shapes) {
 		NSString *entityName = [[shape entity] name];
 		
-		NSString *colourCode = shape.colour;
-		NSArray *colourCodes= [colourCode componentsSeparatedByString:@","];
-		
-		CGContextSetRGBFillColor(context, 
-								 [[colourCodes objectAtIndex:0] floatValue], 
-								 [[colourCodes objectAtIndex:1] floatValue], 
-								 [[colourCodes objectAtIndex:2] floatValue], 1);
+		const CGFloat *rgb = CGColorGetComponents(shape.colour.CGColor);		
+		CGContextSetRGBFillColor(context, rgb[0], rgb[1], rgb[2], 1);
 		
 		if ([entityName compare:@"Circle"] == NSOrderedSame) {
 			Circle *circle = (Circle *)shape;
@@ -69,7 +64,7 @@
 			Polygon *polygon = (Polygon *)shape;
 			NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"index" ascending:YES];
 			NSArray *sortDesc = [NSArray arrayWithObject:sort];
-			NSArray *vertices = [[polygon.vertices allObjects] sortedArrayUsingDescriptors:sortDesc];
+			NSArray *vertices = [polygon.vertices sortedArrayUsingDescriptors:sortDesc];
 			
 			CGContextBeginPath(context);
 			

@@ -1,7 +1,7 @@
 TShapez
 v7
 r0
-t338211357.113676
+t338214658.423374
 cCheck dependencies
 cProcessInfoPlistFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist Shapez-Info.plist
 cCompileXIB /Users/charlottepitchford/Apps/Shapez/MainWindow.xib
@@ -18,6 +18,7 @@ cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i
 cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Circle.o /Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o /Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Transform.o /Users/charlottepitchford/Apps/Shapez/Classes/../Transform.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColourTransformer.o /Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez normal i386
 cGenerateDSYMFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
 cTouch /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app
@@ -93,11 +94,25 @@ t1316514010
 s224
 i"Circle.h"
 
+N/Users/charlottepitchford/Apps/Shapez/Classes/../Canvas.h
+c000000004E786F520000000000000294
+t1316515666
+s660
+i<CoreData/CoreData.h>
+i"Transform.h"
+
 N/Users/charlottepitchford/Apps/Shapez/Classes/../Canvas.m
 c000000004E786D5600000000000001E3
 t1316515158
 s483
 i"Canvas.h"
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/../Circle.h
+c000000004E78795500000000000001C0
+t1316518229
+s448
+i<CoreData/CoreData.h>
+i"Shape.h"
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m
 c000000004E787A730000000000000281
@@ -105,11 +120,25 @@ t1316518515
 s641
 i"Circle.h"
 
+N/Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.h
+c000000004E7879E40000000000000256
+t1316518372
+s598
+i<CoreData/CoreData.h>
+i"Shape.h"
+
 N/Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m
 c000000004E787A98000000000000042B
 t1316518552
 s1067
 i"Polygon.h"
+i"Vertex.h"
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/../Shape.h
+c000000004E787EEB000000000000021B
+t1316519659
+s539
+i<CoreData/CoreData.h>
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m
 c000000004E7868DA00000000000000EB
@@ -124,6 +153,12 @@ t1316514965
 s531
 i"Transform.h"
 i"Canvas.h"
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.h
+c000000004E7868DA00000000000001A0
+t1316514010
+s416
+i<CoreData/CoreData.h>
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m
 c000000004E7868DA0000000000000105
@@ -141,9 +176,9 @@ i<CoreData/CoreData.h>
 i"Canvas.h"
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m
-c000000004E7871FA0000000000000920
-t1316516346
-s2336
+c000000004E78872F000000000000085D
+t1316521775
+s2141
 i"BasicCanvasView.h"
 i"Transform.h"
 i"Shape.h"
@@ -159,11 +194,12 @@ i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m
-c000000004E78554E0000000000000D6C
-t1316509006
-s3436
+c000000004E7884D20000000000000E49
+t1316521170
+s3657
 i"ShapezAppDelegate.h"
 i"ShapezViewController.h"
+i"UIColourTransformer.h"
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.h
 c000000004E7855520000000000000253
@@ -174,9 +210,9 @@ i<CoreData/CoreData.h>
 i"BasicCanvasView.h"
 
 N/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m
-c000000004E787A400000000000001476
-t1316518464
-s5238
+c000000004E78877D0000000000001493
+t1316521853
+s5267
 i<stdlib.h>
 i"Canvas.h"
 i"Shape.h"
@@ -185,6 +221,30 @@ i"Circle.h"
 i"Vertex.h"
 i"Transform.h"
 i"ShapezViewController.h"
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.h
+c000000004E787FBD00000000000000F0
+t1316519869
+s240
+i<Cocoa/Cocoa.h>
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.m
+c000000004E7880FA000000000000046E
+t1316520186
+s1134
+i"UIColorTransformer.h"
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.h
+c000000004E78821500000000000000F1
+t1316520469
+s241
+i<Foundation/Foundation.h>
+
+N/Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m
+c000000004E7885D80000000000000482
+t1316521432
+s1154
+i"UIColorTransformer.h"
 
 N/Users/charlottepitchford/Apps/Shapez/MainWindow.xib
 c000000004E7834D50000000000004CFF
@@ -205,9 +265,9 @@ s205
 i"Polygon.h"
 
 N/Users/charlottepitchford/Apps/Shapez/Shape.h
-c000000004E7868DA000000000000021C
-t1316514010
-s540
+c000000004E787EEB000000000000021B
+t1316519659
+s539
 i<CoreData/CoreData.h>
 
 N/Users/charlottepitchford/Apps/Shapez/Shape.m
@@ -256,11 +316,11 @@ i"Vertex.h"
 i"Polygon.h"
 
 N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app
-t1316518557
+t1316521854
 s272
 
 N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM
-t1316518557
+t1316521854
 s102
 
 N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist
@@ -276,56 +336,64 @@ t1316501762
 s8
 
 N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
-t1316518557
-s39372
+t1316521854
+s40788
 
 N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/ShapezViewController.nib
 t1316504546
 s1172
 
 N/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom
-t1316515381
-s3940
+t1316521173
+s3957
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/BasicCanvasView.o
-t1316518472
-s48876
+t1316521778
+s48376
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Canvas.o
 t1316515668
 s12460
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Circle.o
-t1316518520
+t1316520401
 s13432
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Polygon.o
-t1316518556
+t1316520401
 s14464
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shape.o
-t1316515668
+t1316520401
 s5228
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shapez.LinkFileList
-c000000004E786E3500000000000004DD
-t1316515381
-s1245
+c000000004E7882160000000000000563
+t1316520470
+s1379
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o
-t1316515668
-s60312
+t1316521180
+s60992
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o
-t1316518472
-s64932
+t1316521854
+s65388
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Transform.o
 t1316515668
 s12704
 
+N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColorTransformer.o
+t1316520403
+s11216
+
+N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColourTransformer.o
+t1316521779
+s11248
+
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o
-t1316518473
+t1316520401
 s5292
 
 N/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/main.o
@@ -339,8 +407,8 @@ s357
 i<UIKit/UIKit.h>
 
 N/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
-c000000004E786E350000000000000088
-t1316515381
+c000000004E7884D40000000000000088
+t1316521172
 s136
 
 N/var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch
@@ -354,11 +422,11 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies338211356#338211356#0(0"0(0#1#0"8615782080#0"0#
+lSLF07#2@18"Check dependencies338214657#338214658#0(0"0(0#1#0"8626163456#0"0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/BasicCanvasView.o /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338211272.678328
-e338211272.805582
+s338214578.495668
+e338214578.803715
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/BasicCanvasView.o
@@ -367,7 +435,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m338211272#338211272#0(0"0(0#0#63"/Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m8615861504#1913"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/BasicCanvasView.o0#
+lSLF07#2@71"Compile /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m338214578#338214578#0(0"0(0#0#63"/Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m8627427296#1913"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/BasicCanvasView.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Canvas.o /Users/charlottepitchford/Apps/Shapez/Canvas.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -389,8 +457,8 @@ CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i
 r0
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Circle.o /Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338211319.905447
-e338211320.097088
+s338213201.459073
+e338213201.585144
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Circle.o
@@ -399,11 +467,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m338211319#338211320#0(0"0(0#0#57"/Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m8618703872#1898"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Circle.o0#
+lSLF07#2@65"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m338213201#338213201#0(0"0(0#0#57"/Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m8625831360#1898"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Circle.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Circle.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Polygon.o /Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338211356.715494
-e338211356.992945
+s338213201.358462
+e338213201.458963
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Polygon.o
@@ -412,14 +480,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m338211356#338211357#0(0"0(0#0#58"/Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m8615073984#1900"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Polygon.o0#
+lSLF07#2@66"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m338213201#338213201#0(0"0(0#0#58"/Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m8618770720#1900"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Polygon.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Polygon.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Polygon.o /Users/charlottepitchford/Apps/Shapez/Polygon.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shape.o /Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338208468.683724
-e338208468.788466
+s338213201.254567
+e338213201.358346
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shape.o
@@ -428,14 +496,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m338208468#338208468#0(0"0(0#0#56"/Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m8615761888#1896"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shape.o0#
+lSLF07#2@64"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m338213201#338213201#0(0"0(0#0#56"/Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m8619275264#1896"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Shape.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shape.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shape.o /Users/charlottepitchford/Apps/Shapez/Shape.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338208468.214575
-e338208468.356313
+s338213972.702682
+e338213980.949649
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o
@@ -444,11 +512,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338208468#338208468#0(0"0(0#0#65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m8616299936#1917"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o0#
+lSLF07#2@73"Compile /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m338213972#338213980#0(0"0(0#0#65"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m8619118240#1917"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/ShapezAppDelegate.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezAppDelegate.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338211272.350028
-e338211272.678187
+s338214654.194591
+e338214654.458081
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o
@@ -457,7 +525,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m338211272#338211272#0(0"0(0#0#68"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m8614219104#1923"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o0#
+lSLF07#2@76"Compile /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m338214654#338214654#0(0"0(0#0#68"/Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m8618558816#1923"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/ShapezViewController.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Transform.o /Users/charlottepitchford/Apps/Shapez/Classes/../Transform.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s338208468.788579
@@ -475,9 +543,35 @@ lSLF07#2@68"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Transform.m
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Transform.o /Users/charlottepitchford/Apps/Shapez/Transform.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColorTransformer.o /Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338213201.683170
+e338213203.200541
+r1
+xCompileC
+xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColorTransformer.o
+x/Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.m338213201#338213203#0(0"0(0#0#66"/Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.m8626029056#1919"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/UIColorTransformer.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColorTransformer.o0#
+
+CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColourTransformer.o /Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338214578.803861
+e338214579.450527
+r1
+xCompileC
+xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColourTransformer.o
+x/Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m338214578#338214579#0(0"0(0#0#67"/Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m8619002304#1921"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/UIColourTransformer.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/UIColourTransformer.o0#
+
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o /Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s338211273.421211
-e338211273.546135
+s338213201.585246
+e338213201.682944
 r1
 xCompileC
 xbuild/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o
@@ -486,7 +580,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m338211273#338211273#0(0"0(0#0#57"/Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m8617143040#1898"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o0#
+lSLF07#2@65"Compile /Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m338213201#338213201#0(0"0(0#0#57"/Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m8618473952#1898"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -include /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch -c /Users/charlottepitchford/Apps/Shapez/Classes/../Vertex.m -o /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o0#
 
 CCompileC build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Vertex.o /Users/charlottepitchford/Apps/Shapez/Vertex.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -521,32 +615,32 @@ x/Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib
 lSLF07#2@35"CompileXIB ShapezViewController.xib338197346#338197346#0(0"0(0#0#62"/Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib8611521056#586"    cd /Users/charlottepitchford/Apps/Shapez    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/ShapezViewController.nib /Users/charlottepitchford/Apps/Shapez/ShapezViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CDataModelCompile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
-s338208181.738711
-e338208181.943798
+s338213972.701615
+e338213980.279493
 r1
 xDataModelCompile
 x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom
 x/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel
-lSLF07#2@64"Compile /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel338208181#338208181#0(0"0(0#0#56"/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel31525614006435960#378"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom0#
+lSLF07#2@64"Compile /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel338213972#338213980#0(0"0(0#0#56"/Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel8625434784#378"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/charlottepitchford/Apps/Shapez/shapes.xcdatamodel /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/shapes.mom0#
 
 CGenerateDSYMFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
-s338211357.063905
-e338211357.110041
+s338214654.535239
+e338214654.594239
 r1
 xGenerateDSYMFile
 x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM
 x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Shapez.app.dSYM build/Debug-iphonesimulator/Shapez.app/Shapez338211357#338211357#0(0"0(0#0#83"/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez8614021600#377"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez -o /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM0#
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Shapez.app.dSYM build/Debug-iphonesimulator/Shapez.app/Shapez338214654#338214654#0(0"0(0#0#83"/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez8627418656#377"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez -o /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app.dSYM0#
 
 CLd /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez normal i386
-s338211356.993038
-e338211357.063787
+s338214654.458185
+e338214654.535124
 r1
 xLd
 x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez
 xnormal
 xi386
-lSLF07#2@88"Link /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez338211356#338211357#0(0"0(0#0#0"8614496096#910"    cd /Users/charlottepitchford/Apps/Shapez    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -filelist /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shapez.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez0#
+lSLF07#2@88"Link /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez338214654#338214654#0(0"0(0#0#0"8612912096#910"    cd /Users/charlottepitchford/Apps/Shapez    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -filelist /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Objects-normal/i386/Shapez.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Shapez0#
 
 CProcessInfoPlistFile /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app/Info.plist Shapez-Info.plist
 s338194562.576849
@@ -571,10 +665,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile Shapez_Prefix.pch338194563#338194565#0(0"0(0#0#55"/Users/charlottepitchford/Apps/Shapez/Shapez_Prefix.pch8616789376#1777"    cd /Users/charlottepitchford/Apps/Shapez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-generated-files.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-own-target-headers.hmap -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-all-target-headers.hmap -iquote /Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/Shapez-project-headers.hmap -F/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator -I/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/include -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources/i386 -I/Users/charlottepitchford/Apps/Shapez/build/Shapez.build/Debug-iphonesimulator/Shapez.build/DerivedSources -c /Users/charlottepitchford/Apps/Shapez/Shapez_Prefix.pch -o /var/folders/vO/vOa49aUBGiiQY3AWWj8XC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shapez_Prefix-bbnvpxwugpwgneckbggbshiwlcks/Shapez_Prefix.pch.gch0#
 
 CTouch /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app
-s338211357.110142
-e338211357.113407
+s338214654.594397
+e338214654.599583
 r1
 xTouch
 x/Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app
-lSLF07#2@82"Touch /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app338211357#338211357#0(0"0(0#0#0"8613627808#275"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app0#
+lSLF07#2@82"Touch /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app338214654#338214654#0(0"0(0#0#0"8627117632#275"    cd /Users/charlottepitchford/Apps/Shapez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/charlottepitchford/Apps/Shapez/build/Debug-iphonesimulator/Shapez.app0#
 

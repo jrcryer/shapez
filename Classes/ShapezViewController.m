@@ -19,7 +19,7 @@
 - (void)createShapeAt:(CGPoint) point;
 - (void)updateAllShapes;
 - (void)deleteAllShapes;
-- (NSString *)makeRandomColor;
+- (UIColor *)makeRandomColor;
 - (void)saveWithViewUpdate:(BOOL)updateView;
 @end
 
@@ -47,13 +47,13 @@
 	[self saveWithViewUpdate:YES];
 }
 
-- (NSString *)makeRandomColor {
+- (UIColor *)makeRandomColor {
 	
-	int red = arc4random() % 256;
-	int green = arc4random() % 256;
-	int blue = arc4random() % 256;
+	float red = arc4random() % 256 / 225.0;
+	float green = arc4random() % 256 / 255.0;
+	float blue = arc4random() % 256 / 255.0;
 
-	return [NSString stringWithFormat:@"%d,%d,%d", red, green, blue];
+	return [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
 }
 
 - (void)updateAllShapes {

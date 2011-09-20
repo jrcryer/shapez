@@ -8,6 +8,7 @@
 
 #import "ShapezAppDelegate.h"
 #import "ShapezViewController.h"
+#import "UIColourTransformer.h"
 
 @implementation ShapezAppDelegate
 
@@ -20,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
+	UIColourTransformer *transformer = [[[UIColourTransformer alloc] init] autorelease];
+	[UIColourTransformer setValueTransformer:transformer forName:(NSString*)@"UIColourTransformerName"];
     // Override point for customization after app launch. 
 	self.viewController.managedObjectContext = self.managedObjectContext;
     [self.window addSubview:viewController.view];
@@ -79,7 +82,7 @@
 		return persistentStoreCoordinator_;
 	}
 	NSString *dir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-	NSURL *storeUrl = [NSURL fileURLWithPath:[dir stringByAppendingPathComponent:@"Shapez.sqlite"]];
+	NSURL *storeUrl = [NSURL fileURLWithPath:[dir stringByAppendingPathComponent:@"Shapeza.sqlite"]];
 	
 	NSError *error = nil;
 	persistentStoreCoordinator_= [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];

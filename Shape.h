@@ -14,7 +14,7 @@
 {
 }
 
-@property (nonatomic, retain) NSString * colour;
+@property (nonatomic, retain) UIColor * colour;
 @property (nonatomic, retain) NSSet* canvases;
 
 @end
