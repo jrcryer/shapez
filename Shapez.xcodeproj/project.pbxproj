@@ -12,19 +12,19 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* ShapezViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ShapezViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* ShapezViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */; };
-		B83698541428A05A00BC5BCF /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = B83698491428A05A00BC5BCF /* Canvas.m */; };
-		B83698551428A05A00BC5BCF /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = B836984B1428A05A00BC5BCF /* Shape.m */; };
-		B83698561428A05A00BC5BCF /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = B836984D1428A05A00BC5BCF /* Polygon.m */; };
-		B83698571428A05A00BC5BCF /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = B836984F1428A05A00BC5BCF /* Circle.m */; };
-		B83698581428A05A00BC5BCF /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = B83698511428A05A00BC5BCF /* Vertex.m */; };
-		B83698591428A05A00BC5BCF /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = B83698531428A05A00BC5BCF /* Transform.m */; };
 		B83698A11428B72A00BC5BCF /* UIColourTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B83698A01428B72A00BC5BCF /* UIColourTransformer.m */; };
+		B836998A1428C0C800BC5BCF /* ShapezViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83699891428C0C800BC5BCF /* ShapezViewController.m */; };
+		B836998D1428C0DB00BC5BCF /* BasicCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = B836998C1428C0DB00BC5BCF /* BasicCanvasView.m */; };
+		B836999A1428C0F000BC5BCF /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = B836998F1428C0F000BC5BCF /* Canvas.m */; };
+		B836999B1428C0F000BC5BCF /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = B83699911428C0F000BC5BCF /* Circle.m */; };
+		B836999C1428C0F000BC5BCF /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = B83699931428C0F000BC5BCF /* Polygon.m */; };
+		B836999D1428C0F000BC5BCF /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = B83699951428C0F000BC5BCF /* Shape.m */; };
+		B836999E1428C0F000BC5BCF /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = B83699971428C0F000BC5BCF /* Transform.m */; };
+		B836999F1428C0F000BC5BCF /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = B83699991428C0F000BC5BCF /* Vertex.m */; };
+		B83699A11428C12E00BC5BCF /* ShapezViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83699A01428C12E00BC5BCF /* ShapezViewController.xib */; };
 		B8D30ACD14286C7F007EEC10 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D30ACC14286C7F007EEC10 /* CoreData.framework */; };
 		B8D30AD114286CBD007EEC10 /* shapes.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B8D30AD014286CBD007EEC10 /* shapes.xcdatamodel */; };
-		B8D30AE414287237007EEC10 /* BasicCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D30AE314287237007EEC10 /* BasicCanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,31 +34,31 @@
 		1D6058910D05DD3D006BFB54 /* Shapez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* ShapezViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShapezViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapezViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapezViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Shapez_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapez_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Shapez-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Shapez-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B83698481428A05A00BC5BCF /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = ../Canvas.h; sourceTree = "<group>"; };
-		B83698491428A05A00BC5BCF /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Canvas.m; path = ../Canvas.m; sourceTree = "<group>"; };
-		B836984A1428A05A00BC5BCF /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = ../Shape.h; sourceTree = "<group>"; };
-		B836984B1428A05A00BC5BCF /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shape.m; path = ../Shape.m; sourceTree = "<group>"; };
-		B836984C1428A05A00BC5BCF /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Polygon.h; path = ../Polygon.h; sourceTree = "<group>"; };
-		B836984D1428A05A00BC5BCF /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Polygon.m; path = ../Polygon.m; sourceTree = "<group>"; };
-		B836984E1428A05A00BC5BCF /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Circle.h; path = ../Circle.h; sourceTree = "<group>"; };
-		B836984F1428A05A00BC5BCF /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = ../Circle.m; sourceTree = "<group>"; };
-		B83698501428A05A00BC5BCF /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = ../Vertex.h; sourceTree = "<group>"; };
-		B83698511428A05A00BC5BCF /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = ../Vertex.m; sourceTree = "<group>"; };
-		B83698521428A05A00BC5BCF /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transform.h; path = ../Transform.h; sourceTree = "<group>"; };
-		B83698531428A05A00BC5BCF /* Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transform.m; path = ../Transform.m; sourceTree = "<group>"; };
 		B836989F1428B72A00BC5BCF /* UIColourTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColourTransformer.h; sourceTree = "<group>"; };
 		B83698A01428B72A00BC5BCF /* UIColourTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColourTransformer.m; sourceTree = "<group>"; };
+		B83699881428C0C800BC5BCF /* ShapezViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapezViewController.h; path = Controllers/ShapezViewController.h; sourceTree = "<group>"; };
+		B83699891428C0C800BC5BCF /* ShapezViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShapezViewController.m; path = Controllers/ShapezViewController.m; sourceTree = "<group>"; };
+		B836998B1428C0DB00BC5BCF /* BasicCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicCanvasView.h; path = Views/BasicCanvasView.h; sourceTree = "<group>"; };
+		B836998C1428C0DB00BC5BCF /* BasicCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicCanvasView.m; path = Views/BasicCanvasView.m; sourceTree = "<group>"; };
+		B836998E1428C0F000BC5BCF /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = Models/Canvas.h; sourceTree = "<group>"; };
+		B836998F1428C0F000BC5BCF /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Canvas.m; path = Models/Canvas.m; sourceTree = "<group>"; };
+		B83699901428C0F000BC5BCF /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Circle.h; path = Models/Circle.h; sourceTree = "<group>"; };
+		B83699911428C0F000BC5BCF /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = Models/Circle.m; sourceTree = "<group>"; };
+		B83699921428C0F000BC5BCF /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Polygon.h; path = Models/Polygon.h; sourceTree = "<group>"; };
+		B83699931428C0F000BC5BCF /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Polygon.m; path = Models/Polygon.m; sourceTree = "<group>"; };
+		B83699941428C0F000BC5BCF /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = Models/Shape.h; sourceTree = "<group>"; };
+		B83699951428C0F000BC5BCF /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shape.m; path = Models/Shape.m; sourceTree = "<group>"; };
+		B83699961428C0F000BC5BCF /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transform.h; path = Models/Transform.h; sourceTree = "<group>"; };
+		B83699971428C0F000BC5BCF /* Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transform.m; path = Models/Transform.m; sourceTree = "<group>"; };
+		B83699981428C0F000BC5BCF /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = Models/Vertex.h; sourceTree = "<group>"; };
+		B83699991428C0F000BC5BCF /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = Models/Vertex.m; sourceTree = "<group>"; };
+		B83699A01428C12E00BC5BCF /* ShapezViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ShapezViewController.xib; path = Classes/Views/ShapezViewController.xib; sourceTree = "<group>"; };
 		B8D30ACC14286C7F007EEC10 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B8D30AD014286CBD007EEC10 /* shapes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = shapes.xcdatamodel; sourceTree = "<group>"; };
-		B8D30AE214287237007EEC10 /* BasicCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCanvasView.h; sourceTree = "<group>"; };
-		B8D30AE314287237007EEC10 /* BasicCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,18 +144,18 @@
 		B836985A1428A06300BC5BCF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B83698481428A05A00BC5BCF /* Canvas.h */,
-				B83698491428A05A00BC5BCF /* Canvas.m */,
-				B836984A1428A05A00BC5BCF /* Shape.h */,
-				B836984B1428A05A00BC5BCF /* Shape.m */,
-				B836984C1428A05A00BC5BCF /* Polygon.h */,
-				B836984D1428A05A00BC5BCF /* Polygon.m */,
-				B836984E1428A05A00BC5BCF /* Circle.h */,
-				B836984F1428A05A00BC5BCF /* Circle.m */,
-				B83698501428A05A00BC5BCF /* Vertex.h */,
-				B83698511428A05A00BC5BCF /* Vertex.m */,
-				B83698521428A05A00BC5BCF /* Transform.h */,
-				B83698531428A05A00BC5BCF /* Transform.m */,
+				B836998E1428C0F000BC5BCF /* Canvas.h */,
+				B836998F1428C0F000BC5BCF /* Canvas.m */,
+				B83699901428C0F000BC5BCF /* Circle.h */,
+				B83699911428C0F000BC5BCF /* Circle.m */,
+				B83699921428C0F000BC5BCF /* Polygon.h */,
+				B83699931428C0F000BC5BCF /* Polygon.m */,
+				B83699941428C0F000BC5BCF /* Shape.h */,
+				B83699951428C0F000BC5BCF /* Shape.m */,
+				B83699961428C0F000BC5BCF /* Transform.h */,
+				B83699971428C0F000BC5BCF /* Transform.m */,
+				B83699981428C0F000BC5BCF /* Vertex.h */,
+				B83699991428C0F000BC5BCF /* Vertex.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -163,8 +163,8 @@
 		B836985B1428A06A00BC5BCF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */,
+				B83699881428C0C800BC5BCF /* ShapezViewController.h */,
+				B83699891428C0C800BC5BCF /* ShapezViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 		B83698641428A09700BC5BCF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2899E5210DE3E06400AC0155 /* ShapezViewController.xib */,
+				B83699A01428C12E00BC5BCF /* ShapezViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 		B83698651428A10600BC5BCF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B8D30AE214287237007EEC10 /* BasicCanvasView.h */,
-				B8D30AE314287237007EEC10 /* BasicCanvasView.m */,
+				B836998B1428C0DB00BC5BCF /* BasicCanvasView.h */,
+				B836998C1428C0DB00BC5BCF /* BasicCanvasView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -236,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2899E5220DE3E06400AC0155 /* ShapezViewController.xib in Resources */,
+				B83699A11428C12E00BC5BCF /* ShapezViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,16 +249,16 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ShapezAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* ShapezViewController.m in Sources */,
 				B8D30AD114286CBD007EEC10 /* shapes.xcdatamodel in Sources */,
-				B8D30AE414287237007EEC10 /* BasicCanvasView.m in Sources */,
-				B83698541428A05A00BC5BCF /* Canvas.m in Sources */,
-				B83698551428A05A00BC5BCF /* Shape.m in Sources */,
-				B83698561428A05A00BC5BCF /* Polygon.m in Sources */,
-				B83698571428A05A00BC5BCF /* Circle.m in Sources */,
-				B83698581428A05A00BC5BCF /* Vertex.m in Sources */,
-				B83698591428A05A00BC5BCF /* Transform.m in Sources */,
 				B83698A11428B72A00BC5BCF /* UIColourTransformer.m in Sources */,
+				B836998A1428C0C800BC5BCF /* ShapezViewController.m in Sources */,
+				B836998D1428C0DB00BC5BCF /* BasicCanvasView.m in Sources */,
+				B836999A1428C0F000BC5BCF /* Canvas.m in Sources */,
+				B836999B1428C0F000BC5BCF /* Circle.m in Sources */,
+				B836999C1428C0F000BC5BCF /* Polygon.m in Sources */,
+				B836999D1428C0F000BC5BCF /* Shape.m in Sources */,
+				B836999E1428C0F000BC5BCF /* Transform.m in Sources */,
+				B836999F1428C0F000BC5BCF /* Vertex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

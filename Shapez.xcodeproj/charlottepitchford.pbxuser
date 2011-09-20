@@ -22,6 +22,12 @@
 		);
 	};
 	28D7ACF60DDB3853001CB0EB /* ShapezViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ShapezViewController.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 469}}";
 			sepNavSelRange = "{70, 0}";
@@ -29,10 +35,16 @@
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ShapezViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ShapezViewController.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Classes/ShapezViewController.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 2834}}";
 			sepNavSelRange = "{603, 0}";
-			sepNavVisRange = "{41, 753}";
+			sepNavVisRange = "{41, 764}";
 			sepNavWindowFrame = "{{12, 218}, {750, 558}}";
 		};
 	};
@@ -263,6 +275,12 @@
 		vrLoc = 0;
 	};
 	B83698481428A05A00BC5BCF /* Canvas.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Canvas.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Canvas.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{181, 0}";
@@ -270,6 +288,12 @@
 		};
 	};
 	B83698491428A05A00BC5BCF /* Canvas.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Canvas.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Canvas.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{256, 0}";
@@ -277,6 +301,12 @@
 		};
 	};
 	B836984A1428A05A00BC5BCF /* Shape.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Shape.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Shape.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 471}}";
 			sepNavSelRange = "{256, 0}";
@@ -284,6 +314,12 @@
 		};
 	};
 	B836984B1428A05A00BC5BCF /* Shape.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Shape.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Shape.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{0, 0}";
@@ -291,6 +327,12 @@
 		};
 	};
 	B836984C1428A05A00BC5BCF /* Polygon.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Polygon.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Polygon.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
 			sepNavSelRange = "{352, 0}";
@@ -299,6 +341,12 @@
 		};
 	};
 	B836984D1428A05A00BC5BCF /* Polygon.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Polygon.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Polygon.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {845, 572}}";
 			sepNavSelRange = "{428, 0}";
@@ -306,6 +354,12 @@
 		};
 	};
 	B836984E1428A05A00BC5BCF /* Circle.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Circle.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Circle.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{438, 0}";
@@ -313,6 +367,12 @@
 		};
 	};
 	B836984F1428A05A00BC5BCF /* Circle.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Circle.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Circle.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 471}}";
 			sepNavSelRange = "{635, 0}";
@@ -320,6 +380,12 @@
 		};
 	};
 	B83698501428A05A00BC5BCF /* Vertex.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Vertex.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Vertex.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{0, 0}";
@@ -327,6 +393,12 @@
 		};
 	};
 	B83698511428A05A00BC5BCF /* Vertex.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Vertex.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Vertex.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{0, 0}";
@@ -334,6 +406,12 @@
 		};
 	};
 	B83698521428A05A00BC5BCF /* Transform.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Transform.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Transform.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{409, 0}";
@@ -341,6 +419,12 @@
 		};
 	};
 	B83698531428A05A00BC5BCF /* Transform.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Transform.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Transform.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 494}}";
 			sepNavSelRange = "{505, 0}";
@@ -358,7 +442,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {768, 676}}";
 			sepNavSelRange = "{158, 0}";
-			sepNavVisRange = "{142, 182}";
+			sepNavVisRange = "{142, 184}";
 		};
 	};
 	B83698A81428B9A300BC5BCF /* PBXTextBookmark */ = {
@@ -1429,6 +1513,12 @@
 		};
 	};
 	B8D30AE214287237007EEC10 /* BasicCanvasView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BasicCanvasView.h;
+		path = /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 446}}";
 			sepNavSelRange = "{142, 0}";
@@ -1436,6 +1526,12 @@
 		};
 	};
 	B8D30AE314287237007EEC10 /* BasicCanvasView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BasicCanvasView.m;
+		path = /Users/charlottepitchford/Apps/Shapez/Classes/BasicCanvasView.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {947, 1170}}";
 			sepNavSelRange = "{1055, 0}";
